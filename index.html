@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+    <title>video</title>
+</head>
+
+<body>
+    <h1>Video Play</h1>
+    <div id="video-controls" class="icon">
+      <i id="stop" class="fa fa-stop fa-2x" aria-hidden="true"></i>
+      <i id='back' class="fa fa-undo fa-2x" aria-hidden="true"></i>
+      <i id="for" class="fa fa-repeat fa-2x" aria-hidden="true"></i>
+      <i id="forward" class="fa fa-step-forward fa-2x" aria-hidden="true"></i>
+      <i id="backward" class="fa fa-step-backward fa-2x" aria-hidden="true"></i>
+    </div>
+    <video id='video' controls>
+    <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4" />
+  </video>
+    <div class="input">
+      <input id="load-video" type="text" name="name" placeholder="video url...">
+      <input id="btn-input" type="button" name="name" value="Load Video">
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src='js/app.js'></script>
+</body>
+
+</html>
